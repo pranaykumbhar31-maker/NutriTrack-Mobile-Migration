@@ -1,0 +1,55 @@
+{
+  "name": "NutriTrack AI — Clinical Nutrition & Food Scanner",
+  "short_name": "NutriTrack",
+  "description": "AI-powered clinical nutrition tracking, food vision scanning, and personalized diet & workout routines.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#059669",
+  "categories": ["health", "fitness", "lifestyle", "medical"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scan Meal",
+      "url": "/?tab=scanner",
+      "description": "Instantly scan and identify food on your plate"
+    },
+    {
+      "name": "Daily Routines",
+      "url": "/?tab=routine",
+      "description": "View today's exercise and diet schedule"
+    },
+    {
+      "name": "Log Water",
+      "url": "/?tab=dashboard",
+      "description": "Quickly log hydration"
+    }
+  ]
+}
